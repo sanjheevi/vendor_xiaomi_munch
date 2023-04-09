@@ -127,8 +127,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/munch/proprietary/system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
     vendor/xiaomi/munch/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/munch/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/munch/proprietary/product/vendor_overlay/31/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/munch/proprietary/product/vendor_overlay/31/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/munch/proprietary/product/vendor_overlay/31/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/munch/proprietary/product/vendor_overlay/31/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
